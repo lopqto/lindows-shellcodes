@@ -10,13 +10,13 @@ use32
 entry start
 
   start:
-    push eax
-    push ebx
-    push ecx
-    push edx
-    push esi
-    push edi
-    push ebp
+    		push eax
+    		push ebx
+   	 	push ecx
+    		push edx
+    		push esi
+    		push edi
+    		push ebp
 		push ebp
 		mov ebp, esp
 		sub esp, 18h
